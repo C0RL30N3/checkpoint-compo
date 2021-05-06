@@ -1,38 +1,80 @@
 .App {
+
+  background-color :blanchedalmond;
+}
+html{
+  background-color :blanchedalmond;
+}
+.pho{
   text-align: center;
-}
+  content: "";
+  margin-top: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+h1{
+  text-align: center;
+  color :lightslategrey;
+  font-size: 45px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+a{
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: lightslategray;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.5s;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+a:hover{
+  color: #255784;
+  background :moccasin;
+  box-shadow: 0 0 10px #e9d3fd, 0 0 40px #e9d3fd, 0 0 80px #e9d3fd;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1:hover{
+  color: #255784;
+  background:moccasin;
+  box-shadow: 0 0 10px #e9d3fd, 0 0 40px #e9d3fd, 0 0 80px #e9d3fd;
+}
+h3{
+  margin-left: 35px;
+  color :lightslategray;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  
+}
+h3:hover{
+  color: #255784;
+  background:moccasin;
+  box-shadow: 0 0 10px #e9d3fd, 0 0 40px #e9d3fd, 0 0 80px #e9d3fd;
+}
+footer{
+  text-align: center;
+  color:lightslategrey;
 }
